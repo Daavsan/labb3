@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/david/Documents/Skola/D0017E/Labb3/3b/Mandelbrot/mandelbrot.c
+tga.h
+C:/Users/david/Documents/Skola/D0017E/Labb3/3b/Mandelbrot/tga.h
+
+C:/Users/david/Documents/Skola/D0017E/Labb3/3b/Mandelbrot/tga.h
+stdio.h
+-
+stdlib.h
+-
+inttypes.h
+-
+
