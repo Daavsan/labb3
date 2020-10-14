@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/david/Documents/Skola/D0017E/Labb3/3b/Plot/interp1.h
+
+C:/Users/david/Documents/Skola/D0017E/Labb3/3b/Plot/plot.c
+tga.h
+C:/Users/david/Documents/Skola/D0017E/Labb3/3b/Plot/tga.h
+math.h
+-
+interp1.h
+C:/Users/david/Documents/Skola/D0017E/Labb3/3b/Plot/interp1.h
+
+C:/Users/david/Documents/Skola/D0017E/Labb3/3b/Plot/tga.h
+stdio.h
+-
+stdlib.h
+-
+inttypes.h
+-
+
