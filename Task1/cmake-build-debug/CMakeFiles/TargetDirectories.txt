@@ -1,0 +1,3 @@
+C:/Users/david/Documents/Skola/D0017E/Labb3/3b/D0017E_H20_Lab3_Files/Task1/cmake-build-debug/CMakeFiles/Task1.dir
+C:/Users/david/Documents/Skola/D0017E/Labb3/3b/D0017E_H20_Lab3_Files/Task1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/david/Documents/Skola/D0017E/Labb3/3b/D0017E_H20_Lab3_Files/Task1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
