@@ -30,7 +30,7 @@ enum TGA_TYPE {
     TGA_RLE_MONOCHROME = 11,
 
     /* Reversed ordering */
-    TGA_FLIP_MASK = 0x30 // Should be set to 0, "don't ask why" paul
+    TGA_FLIP_MASK = 0x30 //
 };
 
 /*!

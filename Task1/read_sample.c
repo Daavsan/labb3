@@ -5,6 +5,6 @@ void main(){
     int width, height;
     tga_read("C:\\Users\\david\\Documents\\Skola\\D0017E\\Labb3\\3b\\D0017E_H20_Lab3_Files\\Task1\\sample.tga", &width, &height, &image);
 
-    tga_write("C:\\Users\\david\\Documents\\Skola\\D0017E\\Labb3\\3b\\D0017E_H20_Lab3_Files\\Task1\\sample24bit.tga", width, height, image, 24);
+    tga_write("C:\\Users\\david\\Documents\\Skola\\D0017E\\Labb3\\3b\\D0017E_H20_Lab3_Files\\Task1\\sample-24bit.tga", width, height, image, 24);
 
 }
