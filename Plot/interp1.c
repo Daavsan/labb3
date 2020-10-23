@@ -22,7 +22,7 @@
 	\return An index, i, so that x2 is in the range [x[i], x[i+1]),
 			or -1 if x2 is out of range in x. 
 */
-int interp1(const float x[], const float y[], int length, float x2, float y2[]) {
+int interp1(const float x[], const float y[], int length, float x2, float Y2[]) {
 
 	/* Check if x2 is within range */
 	if(!((x[0]<=x2 && x2<x[length-1]) ||
@@ -47,7 +47,7 @@ int interp1(const float x[], const float y[], int length, float x2, float y2[]) 
 			imax = imid;
 	}
 
-	(*y2) = (y[imax]-y[imin])/(x[imax]-x[imin])*(x2-x[imin]) + y[imin];
+	(*Y2) = (y[imax]-y[imin])/(x[imax]-x[imin])*(x2-x[imin]) + y[imin];
 	
 	return imin;
 }

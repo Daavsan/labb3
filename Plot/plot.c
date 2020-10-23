@@ -95,7 +95,7 @@ void draw_line(PIXEL_RGB24 *image, const PIXEL_RGB24 *color, int width, int heig
         }
     }
 
-    else {
+    else {      // draws all other lines
         for (int j = 0; j <= length_x; j++) {
             if (x1 >= 0 && x1+j < width && y1 >= 0 && y1+j < height) {
                 index = (int) (width * round((arr_y[j]))) + x1 + j;
@@ -123,9 +123,9 @@ int main(void) {
 
 
 	/* Draw a few circles on the image */
-	draw_circle(image,width,height,width/2,height/2,width/5,&red);
-	draw_circle(image,width,height,width/2,height/2,width/4,&green);
-	draw_circle(image,width,height,width/2,0,width/2,&blue);
+	draw_circle(image,width,height,width/2,height*0.75,width/7,&red);
+	draw_circle(image,width,height,width/2,height/2,width/9,&green);
+	draw_circle(image,width,height,width/2,height*0.25,width/7,&blue);
     draw_line(image, &blue, width, height,0,0,800,800);
     draw_line(image, &green, width, height,256,1,256,700);
     draw_line(image, &red, width, height,0,256,700,256);
